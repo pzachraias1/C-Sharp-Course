@@ -1,0 +1,27 @@
+First: Pete Chee 
+Last: Zachraias
+Class: Senior
+ID: 03088601
+DOB: 01/05/1999
+GPA: 4.0
+
+First: Rankey
+Last: Zachraias
+Class: Freshmen
+ID: 03021234
+DOB: 02/02/2003
+GPA: 3.8
+
+First: Tim
+Last: Keju
+Class: Graduate
+ID: 02030456
+DOB: 02/10/1998
+GPA: 4.0
+
+First: Andrew
+Last: Nashion
+Class: Sophomore
+ID: 33441234
+DOB: 10/14/1999
+GPA: 3.33

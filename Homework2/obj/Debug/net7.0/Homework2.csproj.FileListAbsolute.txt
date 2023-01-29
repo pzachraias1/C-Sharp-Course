@@ -1,0 +1,15 @@
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/bin/Debug/net7.0/Homework2
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/bin/Debug/net7.0/Homework2.deps.json
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/bin/Debug/net7.0/Homework2.runtimeconfig.json
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/bin/Debug/net7.0/Homework2.dll
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/bin/Debug/net7.0/Homework2.pdb
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/obj/Debug/net7.0/Homework2.csproj.AssemblyReference.cache
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/obj/Debug/net7.0/Homework2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/obj/Debug/net7.0/Homework2.AssemblyInfoInputs.cache
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/obj/Debug/net7.0/Homework2.AssemblyInfo.cs
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/obj/Debug/net7.0/Homework2.csproj.CoreCompileInputs.cache
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/obj/Debug/net7.0/Homework2.dll
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/obj/Debug/net7.0/refint/Homework2.dll
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/obj/Debug/net7.0/Homework2.pdb
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/obj/Debug/net7.0/Homework2.genruntimeconfig.cache
+/Users/petecheezachraias/Desktop/Spring 2023/C#/workspace/Homework2/obj/Debug/net7.0/ref/Homework2.dll
