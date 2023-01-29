@@ -4,13 +4,16 @@ class Program
     static void Main(string[] args)
     {
         Question q = new Question();
-        int [,] twoD = new int[,] {{12,33,4,5}, {3,65,8,5}, {12,33,4,9}, {84,5,23,6}};
-        int x = 0;
-        int y = 0;
+        
+       double [] y = new double[10];
 
-        q.question3(twoD, ref x, ref y);
+        y = q.question2(ref y);
+        double total = q.question1(y);
 
-        Console.WriteLine(x + " " + y);
-        Console.WriteLine(twoD[x,y]);
+        Console.WriteLine(total);
+
+        for(int i = 0; i < y.Length; i++){
+            Console.WriteLine(y[i]);
+        }
     }
 }
