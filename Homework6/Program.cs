@@ -3,6 +3,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Tools t = new Tools();
+        Furniture f = new Furniture();
+
+        Console.WriteLine(t.waterResistance + "\t" +f.waterResistance);
     }
 }
