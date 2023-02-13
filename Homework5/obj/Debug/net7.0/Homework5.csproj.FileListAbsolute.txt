@@ -1,0 +1,15 @@
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/bin/Debug/net7.0/Homework5
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/bin/Debug/net7.0/Homework5.deps.json
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/bin/Debug/net7.0/Homework5.runtimeconfig.json
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/bin/Debug/net7.0/Homework5.dll
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/bin/Debug/net7.0/Homework5.pdb
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/obj/Debug/net7.0/Homework5.csproj.AssemblyReference.cache
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/obj/Debug/net7.0/Homework5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/obj/Debug/net7.0/Homework5.AssemblyInfoInputs.cache
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/obj/Debug/net7.0/Homework5.AssemblyInfo.cs
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/obj/Debug/net7.0/Homework5.csproj.CoreCompileInputs.cache
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/obj/Debug/net7.0/Homework5.dll
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/obj/Debug/net7.0/refint/Homework5.dll
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/obj/Debug/net7.0/Homework5.pdb
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/obj/Debug/net7.0/Homework5.genruntimeconfig.cache
+/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Homework5/obj/Debug/net7.0/ref/Homework5.dll

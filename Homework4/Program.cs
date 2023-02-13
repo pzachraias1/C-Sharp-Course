@@ -100,6 +100,12 @@ class Program
 
     static void Main(string[] args)
     {
+
+        char [] c= {'H','E'};
+        for (int i = 0; i < c.Length; i++){
+            c[i] = Char.ToLower(c[i]);
+            Console.Write(c[i]);
+        }
         Point p1 = new Point(3,4,"First");
         Point p2 = new Point (1, 6, "Second");
         double num = 0;
