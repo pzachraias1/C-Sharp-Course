@@ -12,7 +12,7 @@ public class Vessel{
     public Vessel(){
         this.name = "";
         this.type = "";
-        this.hull_number = 0;
+        this.hull_number = 1;
         this.crew_compliment = "";
         this.displacement = "";
         this.top_speed = 0.0;
@@ -67,5 +67,10 @@ public class Vessel{
     public int Fleet {
         set {this.fleet = value;}
         get{return this.fleet;}
+    }
+
+    public void PrintVessel(){
+        Console.WriteLine("\n--------------------Ship Information-------------------");
+        Console.WriteLine($"Name: {this.name}\nType: {this.type}\nHull Number: {this.hull_number}\nCrew compliment: {this.crew_compliment}\nDisplacement: {this.displacement}\nTop Speed: {this.top_speed}\nFleet: {this.fleet}\n");
     }
 }
