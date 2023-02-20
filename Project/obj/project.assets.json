@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/petecheezachraias/Desktop/Spring 2023/C#/Project/Project/Project.csproj",
+      "projectUniqueName": "/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Project/Project.csproj",
       "projectName": "Project",
-      "projectPath": "/Users/petecheezachraias/Desktop/Spring 2023/C#/Project/Project/Project.csproj",
+      "projectPath": "/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Project/Project.csproj",
       "packagesPath": "/Users/petecheezachraias/.nuget/packages/",
-      "outputPath": "/Users/petecheezachraias/Desktop/Spring 2023/C#/Project/Project/obj/",
+      "outputPath": "/Users/petecheezachraias/Desktop/Spring 2023/C#/GitHub/Project/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/petecheezachraias/.nuget/NuGet/NuGet.Config"

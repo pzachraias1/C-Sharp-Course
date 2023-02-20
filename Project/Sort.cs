@@ -17,7 +17,7 @@ namespace Project
             {
                 for (int j = i + 1; j < size; j++)
                 {
-                    if (student[i].getLast().CompareTo(student[j].getLast()) == 1)
+                    if (student[i].LastName.CompareTo(student[j].LastName) == 1)
                     {
                         Student temp = student[i];
                         student[i] = student[j];
@@ -34,7 +34,7 @@ namespace Project
             {
                 for (int j = i + 1; j < size; j++)
                 {
-                    if (student[i].getLast().CompareTo(student[j].getLast()) == -1)
+                    if (student[i].LastName.CompareTo(student[j].LastName) == -1)
                     {
                         Student temp = student[i];
                         student[i] = student[j];
@@ -54,7 +54,7 @@ namespace Project
                 Student temp = student[i];
                 int j = i - 1;
 
-                while (j >= 0 && student[j].getStudent_ID().CompareTo(temp.getStudent_ID()) == 1)
+                while (j >= 0 && student[j].Student_ID.CompareTo(temp.Student_ID) == 1)
                 {
                     student[j + 1] = student[j];
                     j = j - 1;
@@ -73,7 +73,7 @@ namespace Project
                 Student temp = student[i];
                 int j = i - 1;
 
-                while (j >= 0 && student[j].getStudent_ID().CompareTo(temp.getStudent_ID()) == -1)
+                while (j >= 0 && student[j].Student_ID.CompareTo(temp.Student_ID) == -1)
                 {
                     student[j + 1] = student[j];
                     j = j - 1;
@@ -92,7 +92,7 @@ namespace Project
                 Student temp = student[i];
                 int j = i - 1;
 
-                while (j >= 0 && student[j].getGpa() > temp.getGpa())
+                while (j >= 0 && student[j].Gpa > temp.Gpa)
                 {
                     student[j + 1] = student[j];
                     j = j - 1;
@@ -111,7 +111,7 @@ namespace Project
                 Student temp = student[i];
                 int j = i - 1;
 
-                while (j >= 0 && student[j].getGpa() < temp.getGpa())
+                while (j >= 0 && student[j].Gpa < temp.Gpa)
                 {
                     student[j + 1] = student[j];
                     j = j - 1;

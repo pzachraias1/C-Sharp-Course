@@ -6,11 +6,10 @@ class Program
         var s1 = new Student[50];
         var s2 = new Student[50];
         int counter = 1;
+        double num = 0;
 
         using (StreamReader file = new StreamReader("StudentList.txt"))
         {
-            double num = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(num);
             string line;
             int i = 0;
 
@@ -23,34 +22,34 @@ class Program
                 //---------------Get the line and get the info------------
                 if (line.Contains("First"))
                 {
-                    s1[i].setFirst(line.Substring(index + 2));
-                    s2[i].setFirst(line.Substring(index + 2));
+                    s1[i].FirstName = line.Substring(index + 2);
+                    s2[i].FirstName = line.Substring(index + 2);
                 }
                 else if (line.Contains("Last"))
                 {
-                    s1[i].setLast(line.Substring(index + 2));
-                    s2[i].setLast(line.Substring(index + 2));
+                    s1[i].LastName = line.Substring(index + 2);
+                    s2[i].LastName = line.Substring(index + 2);
                 }
                 else if (line.Contains("Class"))
                 {
-                    s1[i].setClass_Status(line.Substring(index + 2));
-                    s2[i].setClass_Status(line.Substring(index + 2));
+                    s1[i].Class_Status = line.Substring(index + 2);
+                    s2[i].Class_Status = line.Substring(index + 2);
                 }
                 else if (line.Contains("ID"))
                 {
-                    s1[i].setStudent_ID(line.Substring(index + 2));
-                    s2[i].setStudent_ID(line.Substring(index + 2));
+                    s1[i].Student_ID = line.Substring(index + 2);
+                    s2[i].Student_ID = line.Substring(index + 2);
                 }
                 else if (line.Contains("DOB"))
                 {
-                    s1[i].setDob(line.Substring(index + 2));
-                    s2[i].setDob(line.Substring(index + 2));
+                    s1[i].Dob = line.Substring(index + 2);
+                    s2[i].Dob = line.Substring(index + 2);
                 }
                 else if (line.Contains("GPA"))
                 {
                     double gpa = Double.Parse(line.Substring(index + 2));
-                    s1[i].setGpa(gpa);
-                    s2[i].setGpa(gpa);
+                    s1[i].Gpa = gpa;
+                    s2[i].Gpa = gpa;
                 }
                 else if (line.Equals(""))
                 {
@@ -62,13 +61,9 @@ class Program
             }
             file.Close();
         }
-
-        for (int i = 0; i < counter; i++)
-        {
-            Console.WriteLine(s1[i].getGpa());
+        for (int i = 0; i < counter; i++){
+            Console.WriteLine(i + ".\t" + s1[i].FirstName);
         }
-        Console.WriteLine();
-
         Sort sor = new Sort(s2, counter);
 
 
@@ -228,13 +223,13 @@ class Program
             Console.WriteLine("------------------Original----------------");
             for (int i = 0; i < counter; i++)
             {
-                Console.WriteLine("Last Name: " + s1[i].getLast() + "\tID: " + s1[i].getStudent_ID() + "\tGPA: " + s1[i].getGpa());
+                Console.WriteLine("Last Name: " + s1[i].LastName + "\tID: " + s1[i].Student_ID + "\tGPA: " + s1[i].Gpa);
             }
 
             Console.WriteLine("------------------Sorted----------------");
             for (int i = 0; i < counter; i++)
             {
-                Console.WriteLine("Last Name: " + s2[i].getLast() + "\tID: " + s2[i].getStudent_ID() + "\tGPA: " + s2[i].getGpa());
+                Console.WriteLine("Last Name: " + s2[i].LastName + "\tID: " + s2[i].Student_ID + "\tGPA: " + s2[i].Gpa);
             }
 
         } while (exit == 0);
