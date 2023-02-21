@@ -1,12 +1,13 @@
 namespace Project{
     class Student{
-        string first;
-        string last;
-        string class_status;
-        string student_ID;
-        string dob;
-        double gpa;
+        string first;//instnace for first name
+        string last;//instance for last name
+        string class_status;//instance for class status
+        string student_ID;//instance for student id
+        string dob;//instance for date of birth
+        double gpa;//instance for gpa
 
+        //constructor for student. defaulted one
         public Student(){
             first = "";
             last ="";
@@ -15,7 +16,8 @@ namespace Project{
             dob = "";
             gpa =0.0;
         }
-
+        
+        //constructor with parameter. no needed or was not use.
         public Student(string first, string last, string class_status, string student_ID, string dob, double gpa){
             this.first = first;
             this.last = last;
@@ -25,82 +27,40 @@ namespace Project{
             this.gpa = gpa;
         }
 
+        //getter and setter for first name instance
         public string FirstName{
             set{this.first = value;}
             get{return this.first;}
         }
 
+        //getter and setter for last name
         public string LastName{
             set{this.last = value;}
             get{return this.last;}
         }
 
+        //getter and setter for class status
         public string Class_Status{
             set{this.class_status = value;}
             get{return this.class_status;}
         }
-
+        
+        //getter and setter for student id
         public string Student_ID{
             set{this.student_ID = value;}
             get{return this.student_ID;}
         }
 
+        //getter and setter for date for birth
         public string Dob{
             set{this.dob = value;}
             get{return this.dob;}
         }
 
+        //getter and setter for gpa
         public double Gpa{
             set{this.gpa = value;}
             get{return this.gpa;}
         }
-        
-        // public void setFirst(string first){
-        //     this.first = first;
-        // }
-
-        // public void setLast(string last){
-        //     this.last = last;
-        // }
-
-        // public void setClass_Status(string class_status){
-        //     this.class_status = class_status;
-        // }
-
-        // public void setStudent_ID(string student_ID){
-        //     this.student_ID = student_ID;
-        // }
-
-        // public void setDob(string dob){
-        //     this.dob = dob;
-        // }
-
-        // public void setGpa(double gpa){
-        //     this.gpa = gpa;
-        // }
-
-        // public string getFirst(){
-        //     return this.first;
-        // }
-
-        // public string getLast(){
-        //     return this.last;
-        // }
-
-        // public string getClass_Status(){
-        //     return this.class_status;
-        // }
-
-        // public string getStudent_ID(){
-        //     return this.student_ID;
-        // }
-
-        // public string getDob(){
-        //     return this.dob;
-        // }
-
-        // public double getGpa(){
-        //     return this.gpa;
-        // }
     }
 }
